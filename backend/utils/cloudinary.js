@@ -10,7 +10,7 @@ cloudinary.config(CLOUDINARY);
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: "rentNest", // folder name in Cloudinary
+    folder: "rentnest", // folder name in Cloudinary
     allowed_formats: ["jpg", "png", "jpeg", "webp"],
     resource_type: "image",
   },
